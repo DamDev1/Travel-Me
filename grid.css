@@ -1,0 +1,124 @@
+
+    marg@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');in: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    justify-content: space-between;
+  
+   
+  
+}
+.grid-items{
+    
+    margin: 10px;
+    border-radius: 10px;
+   
+
+}
+.grid-item-1{
+    grid-column: span 3;
+    grid-row: span 2;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    font-weight: bolder;   
+}
+
+
+
+ 
+.grid-item-2{
+    grid-column: span 3;
+    grid-row: span 4;
+    padding: 20px;
+    margin: 10px;
+     display: flex;
+     justify-content: space-between;
+     font-size: small;
+     background-color: white;
+     height: 70px;
+        
+}
+.grid-item-2 > span img{
+     border-radius: 20px;
+     border: 4px solid rgb(36, 36, 161);
+     background: white;
+     background-color: white;
+     padding: 3px;
+     height: 50px;
+     width: 50px;
+   
+
+}
+   
+.grid-item-1 > .first i {
+    Margin-right: 10px
+    
+}
+
+
+
+.grid-item-3{
+    grid-column: span 3;
+    grid-row: span 25;
+   
+}
+.grid-item-3 img{
+    padding-top: px;
+    border-radius: 30px;
+
+
+}
+.grid-item-4{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.second i:nth-child(2){
+    Margin-left: 20px;
+}
+.first :nth-child(2){
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+.grid-item-3{
+    padding: 20px;
+}
+.thirdgrid img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.thirdgrid p {
+    padding-bottom: 8px;
+    padding-top: 5px;
+}
+.thirdgrid h1 , h2{
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.secondimage img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.grid-item-4{
+    display: flex;
+    justify-content: space-between;
+    height: 40px; 
+}
+.grid-item-4 i{
+    padding: 10px;
+    color: rgba(0, 0 100, 0);
+
+}
+.thirdgrid :nth-child(5){
+    width: 300px;
+}
+.thirdgrid :nth-child(1){
+    width: 300px;
+    height: 300px;
+}
