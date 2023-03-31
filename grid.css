@@ -1,7 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
 
-    marg@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');in: 0;
-    padding: 0;
-}
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
